@@ -7,7 +7,7 @@ stringClean("abbbcdd") → "abcd"
 stringClean("Hello") → "Helo" 
 **/
 
-@author Uno Batbayar
+@author Uno 
 @author Raj
 
 public String stringClean(String str) {
