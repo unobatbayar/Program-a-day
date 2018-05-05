@@ -7,5 +7,5 @@ you have to explicitly put your work in the public domain if you want it there.
 Otherwise, you must be dead a long time before your work reverts to the public domain.
 
 
-@author Uno Batbayar
+@author unobatbayar
 Feel free to use the solutions in this repository.
