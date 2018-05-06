@@ -1,6 +1,4 @@
 # ProgrammingExercises
-# Sharing my tips, although it's been two years since I've started coding. 
-# I've decided to start things all over again.
 
 Solving programming exercises to learn and deepen main principles of computer science. All just for practice and learning.
 The programming exercises are taken from jwasham/coding-interview-university and Cracking the Coding Interview, Codingbat and Hackerrank
