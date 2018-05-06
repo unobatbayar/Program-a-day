@@ -21,8 +21,6 @@ And only way to improve your programming in the small is to perfect any small pr
 
 	Python makes most problems way easier and faster to implement due to the less coding lines it requires.
 
-# Most importantly BELIEVE IN YOURSELF.
-# Everything has a flaw, and everything is crackable ;-)
-	
+# Most importantly everything has a flaw, challenge your answers!
 
 
