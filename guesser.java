@@ -3,8 +3,8 @@ import java.util.*;
  Program number 1/365
  20/May/2018
  
- 				      							 Guesser
-						Guess a random number ranging from 1 to 5, win if you guess correct.
+ 			      				 Guesser
+				Guess a random number ranging from 1 to 5, win if you guess correct.
 */
 
 class guesser {
