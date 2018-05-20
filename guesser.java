@@ -29,7 +29,7 @@ class guesser {
 	public static void game(){
 
 		Random rand = new Random();  
-        int  correctnumber = rand.nextInt(5) + 1;
+      		int  correctnumber = rand.nextInt(5) + 1;
 
 		System.out.println("Guess a number! from 1 to 5");
 		int playerguess = getInt();    
