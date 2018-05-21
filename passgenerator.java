@@ -7,8 +7,8 @@ import java.awt.event.*;
 /* AUTHOR: uno
 Program 2/365 
 21/May/2018 	
-				Simple Password Generator
-		Using GUI button once clicked generates random passwords
+						Simple Password Generator
+				   Using GUI button once clicked generates random passwords
 */
 
 class passgenerator{	
@@ -41,7 +41,7 @@ class passgenerator{
 		}
 		String randomDigit = randomCharacter(0123456789");
 		password = insertAtRandom(password, randomDigit);
-		String randomSymbol= randomCharacter("+-*&/?!£%$");
+		String randomSymbol= randomCharacter("+-*&/?!Â£%$");
 		password = insertAtRandom(password, randomSymbol);
 		return password;
    	}
