@@ -3,6 +3,7 @@ import javax.swing.*;
 import javax.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.JOptionPane;
 
 /* AUTHOR: uno
 Program number 2/365 
@@ -13,15 +14,21 @@ Program number 2/365
 
 class passgenerator{	
 	public static void main (String[] args){ // main
-	
-		JFrame frame = new Jframe("Password Generator");  //We make our user interface
+		
+		JFrame frame = new JFrame("Password Generator by Uno");  //We make our user interface
 		frame.setVisible(true);
-		frame.setSize(150,150);
+		frame.setSize(300,100);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 	
+		JPanel panel = new JPanel();  
+		frame.add(panel);
+
+
 		JButton button = new JButton("Generate"); //button to generate passwords
 		panel.add(button);
 		button.addActionListener(new Action());
+		
 		
 
 		
@@ -30,7 +37,7 @@ class passgenerator{
 
 		public void actionPerformed (ActionEvent e){
 			String product= makePassword(10);
-			System.out.println(product);
+			JOptionPane.showMessageDialog(null, product);
 		}
 	}
 	public static String makePassword(int length){ // Generate password
@@ -39,7 +46,7 @@ class passgenerator{
 		for(int i = 0; i <length - 2; i++){
 			password = password + randomCharacter("abcdefghijklmnopqrstuvwxyz");
 		}
-		String randomDigit = randomCharacter(0123456789");
+		String randomDigit = randomCharacter("0123456789");
 		password = insertAtRandom(password, randomDigit);
 		String randomSymbol= randomCharacter("+-*&/?!£%$");
 		password = insertAtRandom(password, randomSymbol);
@@ -47,7 +54,7 @@ class passgenerator{
    	}
 	public static String randomCharacter(String characters){
 		int n = characters.length();
-		int r = (int)(n& Math.random());
+		int r = (int)(n * Math.random());
 		return characters.substring(r, r + 1);
 	}
 	public static String insertAtRandom(String str, String toInsert){
