@@ -17,7 +17,7 @@ class passgenerator{
 		
 		JFrame frame = new JFrame("Password Generator by Uno");  //We make our user interface
 		frame.setVisible(true);
-		frame.setSize(300,100);
+		frame.setSize(350,100);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 	
