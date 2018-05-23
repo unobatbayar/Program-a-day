@@ -14,7 +14,7 @@ class spammer{
         int limit = Integer.parseInt(JOptionPane.showInputDialog("How many times?"));
         
         int counter = 0;
-        spam(spammessage, counter,   limit);
+        spam(spammessage, counter, limit);
     }
     public static void spam(String spammessage, int counter, int limit){
         if(counter <= limit){
