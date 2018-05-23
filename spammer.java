@@ -1,8 +1,4 @@
 import java.util.*;
-import javax.swing.*;
-import javax.*;
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.JOptionPane;
 /*
 AUTHOR: uno
