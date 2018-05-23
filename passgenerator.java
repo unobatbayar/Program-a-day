@@ -36,7 +36,7 @@ class passgenerator{
 	static class Action implements ActionListener{
 
 		public void actionPerformed (ActionEvent e){
-			String product= makePassword(20);
+			String product= makePassword(5);
 			JOptionPane.showMessageDialog(null, product);
 		}
 	}
@@ -44,7 +44,7 @@ class passgenerator{
 		String password = "";
 		
 		for(int i = 0; i <length - 2; i++){
-			password = password + randomCharacter("abcdefghijklmnopqrstuvwxyz");
+			password = password + randomCharacter("abcdefghijklmnopqrstuvwxyz") + randomCharacter("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 		}
 		String randomDigit = randomCharacter("0123456789");
 		password = insertAtRandom(password, randomDigit);
