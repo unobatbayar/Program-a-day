@@ -36,7 +36,7 @@ class passgenerator{
 	static class Action implements ActionListener{
 
 		public void actionPerformed (ActionEvent e){
-			String product= makePassword(10);
+			String product= makePassword(20);
 			JOptionPane.showMessageDialog(null, product);
 		}
 	}
