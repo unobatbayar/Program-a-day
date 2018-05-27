@@ -12,7 +12,7 @@ Program number 2/365
 				   Using GUI button once clicked generates random passwords
 */
 
-class passgenerator{	
+class Passgenerator{	
 	public static void main (String[] args){ // main
 		
 		JFrame frame = new JFrame("Password Generator by Uno");  //We make our user interface
