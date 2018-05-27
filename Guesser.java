@@ -7,7 +7,7 @@ import java.util.*;
 				Guess a random number ranging from 1 to 5, win if you guess correct.
 */
 
-class guesser {
+class Guesser {
 	public static void main (String[] p) { //our main 
 		System.out.println("What is your name?"); 
 		String name = getString();
