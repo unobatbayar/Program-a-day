@@ -7,7 +7,7 @@ Program number 4/365
 			Quicksort Algorithm
 	Let's sort user input numbers using quicksort algorithm
 */
-class quicksort
+class Quicksort
 {
 	public static void main(String[] args){
 
