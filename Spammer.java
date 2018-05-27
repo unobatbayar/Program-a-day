@@ -7,7 +7,7 @@ Date 22/May/2018
                                                  Spammer
                          take user input message and spam it recursively with counting number
 */
-class spammer{
+class Spammer{
     public static void main (String[] args){
 
         String spammessage = JOptionPane.showInputDialog("What message would you want to spam?");
