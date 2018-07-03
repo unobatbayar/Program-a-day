@@ -1,7 +1,7 @@
-# prograg-a-day
+# program-a-day challenge
 # unobatbayar
 
-More complex programs will be made as we improve along the way, folders represent files of single program written using object-oriented design. 
+We will add more complex programs as we improve along the way, folders represent files of single program written using object-oriented design. 
 
                                                 Passgenerator
 
