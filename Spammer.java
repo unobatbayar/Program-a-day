@@ -1,8 +1,8 @@
 import java.util.*;
 import javax.swing.JOptionPane;
 /*
-AUTHOR: uno
-Program number 3/365
+@author uno
+Program number 3
 Date 22/May/2018
                                                  Spammer
                          take user input message and spam it recursively with counting number
@@ -24,6 +24,4 @@ class Spammer{
 
         }
     }
-
-
 }
