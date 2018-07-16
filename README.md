@@ -1,7 +1,7 @@
 # program a day challenge
 # unobatbayar
 
-We will add more complex programs as we improve along the way, folders represent files of single program written using object-oriented design. Hope you enjoy exploring my programs. At first, writing the program was the hard part, then the ideas became the challenge. But it was so much fun!  🔭
+We will add more complex programs as we improve along the way, folders represent files of single program written using object-oriented design. Hope you enjoy exploring my programs. At first, programming was the hard part, then the ideas became the challenge. But it was so much fun!  🔭
 
 
 
