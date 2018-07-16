@@ -1,9 +1,9 @@
 import java.util.*;
 
 /*
-@author uno
-Program number 4
-23/May/2018
+@author uno 
+@program #4
+@date 23-05-2018
 							Quicksort Algorithm // Not finished
 					Let's sort user input numbers using quicksort algorithm
 */
