@@ -1,7 +1,12 @@
 import java.util.*;
 
-// @author uno
-//                                Sachiko's Heart Access Control
+/**
+  					Sachiko's Heart Access Control
+@author uno
+@program #7
+@date 17-07-2018
+
+**/
 import javax.swing.*;
 import javax.*;
 import java.awt.*;
