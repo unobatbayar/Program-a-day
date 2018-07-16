@@ -1,7 +1,11 @@
 import java.util.*;
 
-// @author uno
-//                          Izanami (イザナミ), the endless loop which can decide your destiny. Counter of Izanagi.
+/** 
+@author uno 
+@program #6
+@date 16-07-2018
+                          Izanami (イザナミ), the endless loop which can decide your destiny. Counter of Izanagi.
+**/
 
 class Izanami
 {
