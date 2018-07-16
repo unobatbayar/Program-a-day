@@ -16,9 +16,9 @@ public class Sachiko
 		JButton b = new JButton("アクセス!");    
 		b.setBounds(100,100,140, 20);    
 					//enter name label		
-        JLabel label = new JLabel();
-        label.setText("君の名は? :");
-        label.setBounds(10, 10, 100, 100);
+       	   	JLabel label = new JLabel();
+        	label.setText("君の名は? :");
+        	label.setBounds(10, 10, 100, 100);
 					//empty label which will show event after button clicked
 		JLabel label1 = new JLabel();
 		label1.setBounds(10 , 110, 200, 100);
@@ -26,7 +26,7 @@ public class Sachiko
 		JTextField textfield= new JTextField();
 		textfield.setBounds(110, 50, 130, 30);
 					//add to frame
-        frame.add(label);
+        	frame.add(label);
 		frame.add(textfield);
 		frame.add(label1);
 		frame.add(b);    
@@ -35,7 +35,7 @@ public class Sachiko
 		frame.setVisible(true);    
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   
         
-							//action listener
+					//action listener
 		b.addActionListener(new ActionListener() {
 	        @Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -52,11 +52,9 @@ public class Sachiko
 			}          
 	      });
 	}         
-	
-	
         public static void main(String[] args) 
         {    
-		    new Sachiko();    
-		}    
+		new Sachiko();    
+	}    
 }
         
