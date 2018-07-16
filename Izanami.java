@@ -30,9 +30,10 @@ class Izanami
             boolean accepted = false;
             while(accepted == false)
             {   
-                System.out.println("You " + moments[0] + "!" );
-                System.out.println("You " + moments[1] + "!" );
-                System.out.println("You " + moments[2] + "!" );
+                for(int i = 0; i < 3; i ++)
+                {
+                    System.out.println("You " + moments[0] + "!" );
+                }
                 System.out.println("Accept what you have done, and move on to the future that awaits you?");
                 String decision = getInput();
                 decision = decision.toLowerCase();
