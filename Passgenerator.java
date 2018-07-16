@@ -5,8 +5,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.JOptionPane;
 
-/* AUTHOR: uno
-Program number 2/365 
+/* 
+@author uno
+Program number 2
 21/May/2018 	
 						Simple Password Generator
 				   Using GUI button once clicked generates random passwords
