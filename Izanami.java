@@ -32,7 +32,7 @@ class Izanami
             {   
                 for(int i = 0; i < 3; i ++)
                 {
-                    System.out.println("You " + moments[0] + "!" );
+                    System.out.println("You " + moments[i] + "!" );
                 }
                 System.out.println("Accept what you have done, and move on to the future that awaits you?");
                 String decision = getInput();
