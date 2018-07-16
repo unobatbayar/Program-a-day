@@ -16,6 +16,7 @@ class Izanami
             }
 
             activated(moments);
+            System.exit(0);    
         }
 
         public static String getInput()
@@ -40,7 +41,6 @@ class Izanami
                 {
                     accepted = true;
                     System.out.println("You have found yourself and ended the Izanami.");
-                    System.exit(0);
                 }
                 else
                 {
