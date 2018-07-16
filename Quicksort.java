@@ -4,8 +4,8 @@ import java.util.*;
 AUTHOR: uno
 Program number 4/365
 23/May/2018
-			Quicksort Algorithm
-	Let's sort user input numbers using quicksort algorithm
+							Quicksort Algorithm
+					Let's sort user input numbers using quicksort algorithm
 */
 class Quicksort
 {
