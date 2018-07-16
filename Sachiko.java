@@ -1,16 +1,15 @@
 import java.util.*;
-
-/**
-  					Sachiko's Heart Access Control
-@author uno
-@program #7
-@date 17-07-2018
-
-**/
 import javax.swing.*;
 import javax.*;
 import java.awt.*;
-import java.awt.event.*;// @author uno//                                Sachiko's Heart Access Control
+import java.awt.event.*;
+/**
+  						Sachiko's Heart Access Control
+@author uno
+@program #7
+@date 17-07-2018
+**/
+
 
 public class Sachiko 
 {
