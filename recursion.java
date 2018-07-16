@@ -1,14 +1,15 @@
 /** 
-@author Codingbat
 Problem: 
 Given a string, return recursively a "cleaned" string where adjacent chars that are the same have been reduced to a single char. So "yyzzza" yields "yza".
 stringClean("yyzzza") → "yza"
 stringClean("abbbcdd") → "abcd"
 stringClean("Hello") → "Helo" 
-**/
 
-@author Uno 
-@author Raj
+@author uno 
+@author raj
+@program #5
+@date 27-05-2019
+**/
 
 public String stringClean(String str) {
   int i = 1;
