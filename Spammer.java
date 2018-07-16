@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 /*
 @author uno 
 @program #3
-@date 23-05-2018
+@date 22-05-2018
                                                  Spammer
                          take user input message and spam it recursively with counting number
 */
