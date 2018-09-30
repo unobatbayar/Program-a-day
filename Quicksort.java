@@ -4,7 +4,7 @@ import java.util.*;
 @author uno 
 @program #4
 @date 23-05-2018
-							Quicksort Algorithm // Not finished
+					     Quicksort Algorithm // Not finished
 					Let's sort user input numbers using quicksort algorithm
 */
 class Quicksort
