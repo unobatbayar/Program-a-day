@@ -15,7 +15,7 @@ class LogicGates{
     }
     public static void introduction(){
         String rules = "\n" + "Welcome to Logic Gates program by Uno!" + "\n" 
-        + "1) Type the gate you want to learn from the follow list." + "\n" 
+        + "1) Type the gate name you want to learn from the following list." + "\n" 
         + "2) Type 'gates' to see the this again." + "\n"
         + "3) Type 'exit' to exit the program." + "\n";
         print(rules);
@@ -43,76 +43,84 @@ class LogicGates{
     public static void program(){
         String input = getInput();
         if(input.toLowerCase().equals("and")){
-            print("\n" + "AND GATE");
-            print("F = AB");
-            print("A B | F");
-            print("0 0 | 0");
-            print("0 1 | 0");
-            print("1 0 | 0");
-            print("1 1 | 1" + "\n");
+            print("\n" + 
+            "AND GATE" + "\n" +
+            "F = AB" + "\n" +
+            "A B | F" + "\n" +
+            "0 0 | 0" + "\n" +
+            "0 1 | 0" + "\n" +
+            "1 0 | 0" + "\n" +
+            "1 1 | 1" + "\n");
         }
         else if(input.toLowerCase().equals("or")){
-            print("\n" + "OR GATE");
-            print("F = A+B");
-            print("A B | F");
-            print("0 0 | 0");
-            print("0 1 | 1");
-            print("1 0 | 1");
-            print("1 1 | 1" + "\n");
-        }
+            print("\n" + 
+            "OR GATE" + "\n" +
+            "F = A+B" + "\n" +
+            "A B | F" + "\n" +
+            "0 0 | 0" + "\n" +
+            "0 1 | 1" + "\n" +
+            "1 0 | 1" + "\n" +
+            "1 1 | 1" + "\n");
+        }   
         else if(input.toLowerCase().equals("xor")){
-            print("\n" + "XOR GATE");
-            print("F = A㊉B");
-            print("A B | F");
-            print("0 0 | 0");
-            print("0 1 | 1");
-            print("1 0 | 1");
-            print("1 1 | 0" + "\n");
+            print("\n" + 
+            "XOR GATE" + "\n" +
+            "F = A㊉B" + "\n" +
+            "A B | F" + "\n" +
+            "0 0 | 0" + "\n" +
+            "0 1 | 1" + "\n" +
+            "1 0 | 1" + "\n" +
+            "1 1 | 0" + "\n");
         }
         else if(input.toLowerCase().equals("nand")){
-            print("\n" + "NAND GATE");
-            print("    __");
-            print("F = AB");
-            print("A B | F");
-            print("0 0 | 1");
-            print("0 1 | 1");
-            print("1 0 | 1");
-            print("1 1 | 0" + "\n");
+            print("\n" + 
+            "NAND GATE" + "\n" +
+            "    __" + "\n" +
+            "F = AB" + "\n" +
+            "A B | F" + "\n" +
+            "0 0 | 1" + "\n" +
+            "0 1 | 1" + "\n" +
+            "1 0 | 1" + "\n" +
+            "1 1 | 0" + "\n");
         }
         else if(input.toLowerCase().equals("nor")){
-            print("\n" + "NOR GATE");
-            print("    ___");
-            print("F = A+B");
-            print("A B | F");
-            print("0 0 | 1");
-            print("0 1 | 0");
-            print("1 0 | 0");
-            print("1 1 | 0" + "\n");
+            print("\n" + 
+            "NOR GATE" + "\n" +
+            "    ___" + "\n" +
+            "F = A+B" + "\n" +
+            "A B | F" + "\n" +
+            "0 0 | 1" + "\n" +
+            "0 1 | 0" + "\n" +
+            "1 0 | 0" + "\n" +
+            "1 1 | 0" + "\n");
         }
         else if(input.toLowerCase().equals("xnor")){
-            print("\n" + "XNOR GATE");
-            print("    ___");
-            print("F = A㊉B");
-            print("A B | F");
-            print("0 0 | 1");
-            print("0 1 | 0");
-            print("1 0 | 0");
-            print("1 1 | 1" + "\n");
+            print("\n" + 
+            "XNOR GATE" + "\n" +
+            "    ___" + "\n" +
+            "F = A㊉B" + "\n" +
+            "A B | F" + "\n" +
+            "0 0 | 1" + "\n" +
+            "0 1 | 1" + "\n" +
+            "1 0 | 0" + "\n" +
+            "1 1 | 1" + "\n");
         }
         else if(input.toLowerCase().equals("buffer")){
-            print("\n" + "BUFFER");
-            print("F = A");
-            print("A | F");
-            print("0 | 0");
-            print("1 | 1" + "\n");
+            print("\n" + 
+            "BUFFER" + "\n" +
+            "F = A" + "\n" +
+            "A | F" + "\n" +
+            "0 | 0" + "\n" +
+            "1 | 1" + "\n");
         }
         else if(input.toLowerCase().equals("inverter")){
-            print("\n" + "INVERTER");
-            print("    _");
-            print("F = A");
-            print("A | F");
-            print("0 | 1");
-            print("1 | 0" + "\n");
+            print("\n" + 
+            "INVERTER" + "\n" +
+            "    _" + "\n" +
+            "F = A" + "\n" +
+            "A | F" + "\n" +
+            "0 | 1" + "\n" +
+            "1 | 0" + "\n");
         }
         else if (input.toLowerCase().equals("exit")){
             print("Thanks for trying my program!");
