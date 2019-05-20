@@ -17,10 +17,9 @@ import java.io.InputStream;
 
 public class HelloFriend implements Runnable
 {
-    public static void main(String[] args) 
-    {
-		new HelloFriend();
-	}
+    public static void main(String[] args){
+			new HelloFriend();
+		}
 
 	public static void MusicPlayer(String filepath)
 	{
