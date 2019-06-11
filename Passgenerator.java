@@ -43,7 +43,6 @@ class Passgenerator{
 		password = insertAtRandom(password, randomDigit);
 		String randomSymbol= randomCharacter("+-*&/?!£%$");
 		password = insertAtRandom(password, randomSymbol);
-		//word + password + pass
 		long current_time = System.currentTimeMillis();
 		password = password.substring(password.length()/2, password.length())+current_time/1000+password+password.substring(0, password.length()/2);
 		return password;
