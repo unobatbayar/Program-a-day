@@ -15,24 +15,18 @@ import javax.swing.JOptionPane;
 
 class Passgenerator{	
 	public static void main (String[] args){ // main
-		
+
 		JFrame frame = new JFrame("Password Generator by Uno");  //We make our user interface
 		frame.setVisible(true);
 		frame.setSize(350,100);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-	
+
 		JPanel panel = new JPanel();  
 		frame.add(panel);
-
 
 		JButton button = new JButton("Generate"); //button to generate passwords
 		panel.add(button);
 		button.addActionListener(new Action());
-		
-		
-
-		
 	}
 	static class Action implements ActionListener{
 
@@ -42,6 +36,7 @@ class Passgenerator{
 		}
 	}
 	public static String makePassword(int length){ // Generate password
+		
 		String password = "";
 		
 		for(int i = 0; i <length - 2; i++){
