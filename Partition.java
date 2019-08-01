@@ -24,7 +24,7 @@ public class Partition {
             return product;
         }
   
-        for (int i = Math.min(max, n); i >= 1; i--) {
+        for (int i = Math.min(max, n); i > 0; i--) {
 
             maximum = Math.max(maximum, getProduct(n-i, i, maximals + i));
         }
@@ -36,7 +36,7 @@ public class Partition {
 
     public static void main(String[] args) { 
         // % Java Parition Product of 8
-        getProduct(8);
+        getProduct(4);
     }
 
 }
