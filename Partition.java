@@ -1,8 +1,14 @@
+/*
+
+Partition code was taken from: https://introcs.cs.princeton.edu/java/23recursion/Partition.java.html
+I've changed and added more code to find each product and maximum of each partitions of N
+@author unobatbayar
+*/
 public class Partition { 
 
     public static void getProduct(int n) {
 
-        System.out.println(getProduct(n, n, ""));
+        System.out.println("Maximum: " + getProduct(n, n, ""));
 
     }
     public static int getProduct(int n, int max, String maximals) {
@@ -14,6 +20,7 @@ public class Partition {
             for(int i = 0; i<maximals.length(); i++){
                 product = product * Integer.valueOf(maximals.substring(i, i+1));
             }
+            System.out.println(maximals + ": " + product);
             return product;
         }
   
@@ -28,8 +35,8 @@ public class Partition {
 
 
     public static void main(String[] args) { 
-        //int n = Integer.parseInt(args[0]);
-        getProduct(4);
+        // % Java Parition Product of 8
+        getProduct(8);
     }
 
 }
