@@ -10,7 +10,7 @@
   <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a></sub>
 </div>
 
-## ⚡ Illustration
+## ⚡ Illustrative programs
 <div align="center">
 
 Encryption
