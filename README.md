@@ -10,10 +10,6 @@
   <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a></sub>
 </div>
 
-
-We will add more complex programs as we improve along the way, folders represent files of single program written using object-oriented design. Hope you enjoy exploring my programs. At first, programming was the hard part, then the ideas became the challenge. But it was so much fun!  🔭
-
-
 ## ⚡ Illustration
 <div align="center">
 
