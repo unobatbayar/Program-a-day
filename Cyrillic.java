@@ -16,7 +16,7 @@ class Cyrillic{
         for(int i = 0; i<text.length(); i++){
             Pattern pattern;
             Matcher matcher;
-            final String PASSWORD_PATTERN = "^(?=.*[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӨҮабвгдеёжзийклмнопрстуфхцчшщъыьэюяөү]).{1,}$";
+            final String PASSWORD_PATTERN = "^(?=.*[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯѲӨҮабвгдеёжзийклмнопрстуфхцчшщъыьэюяөѳү]).{1,}$";
             pattern = Pattern.compile(PASSWORD_PATTERN);
             matcher = pattern.matcher(text.charAt(i) + "");
             if(!matcher.matches()){
