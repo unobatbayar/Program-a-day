@@ -2,12 +2,6 @@
   <h1><code>program-a-day</code></h1>
 
   <strong>Writing programs everyday to Improve creativity and skill. </strong>
-
-<h3>
-    <a href="https://github.com/unobatbayar/Algorithms/pull/new/master">Contribute</a>
-  </h3>
-
-  <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a></sub>
 </div>
 
 ## ⚡ Illustrative programs
