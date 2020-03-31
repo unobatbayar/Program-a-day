@@ -3,7 +3,7 @@
 
   <strong>Writing programs everyday to Improve creativity and skill. </strong>
   <h3>
-    <a href="https://github.com/unobatbayar/ominous-beeping-app/pull/new/master">Contribute</a>
+    <a href="https://github.com/unobatbayar/program-a-day/pull/new/master">Contribute</a>
   </h3>
 
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> to practice programming. </sub>
