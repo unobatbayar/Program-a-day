@@ -1,7 +1,7 @@
 <div align="center">
   <h1><code>program-a-day</code></h1>
 
-  <strong>Writing programs everyday to Improve creativity and skill. </strong>
+  <strong>Writing programs everyday to Improve creativity and skill </strong>
   <h3>
     <a href="https://github.com/unobatbayar/program-a-day/pull/new/master">Contribute</a>
   </h3>
